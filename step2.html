@@ -2,27 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
-
-    <title>Multi-step form</title>
-    <link rel="stylesheet" href="style.css" />
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="./assets/images/favicon-32x32.png"
+  />
+    <title>Step 2</title>
+    <link rel="stylesheet" href="step1ss.css" />
   </head>
   <body>
     <div class="container">
@@ -58,43 +47,41 @@
       </div>
       <div class="right">
         <div class="header">
-          <h1>Personal info</h1><br>
-          <p>Please provide your name, email address, and phone number.</p>
+          <h1>Select your plan</h1>
+          <br />
+          <p>You have the option of monthly or yearly billing.</p>
         </div>
         <div class="form">
-          <div class="inputs">
-            <label for="text">NAME</label><br>
-            <input type="text" placeholder="e.g.Stephen King" required/>
+          <div class="input">
+            <h2>Arcade</h2>
+            <p>$9/mo</p>
           </div>
-          <div class="inputs">
-            <label for="text">Email Address</label><br>
-            <input type="email" name="text" id="email" placeholder="e.g.stephenking@lorem.com" required/>
+          <div class="input">
+            <h2>Advanced</h2>
+            <p>$12/mo</p>
           </div>
-          <div class="inputs">
-            <label for="number">Phone Number</label><br>
-            <input type="tel" id="phonenumber" placeholder="e.g. +1 243 567 890" required/>
+          <div class="input">
+            <h2>Pro</h2>
+            <p>$15/mo</p>
+          </div>
+          <div class="input">
+            <h2>Monthly</h2>
+            <p>$9/mo</p>
+          </div>
+          <div class="input">
+            <h2>Yearly</h2>
+            <p>$9/mo</p>
           </div>
         </div>
         <div class="button">
+          <button><a href="index.html">Go Back</a></button>
           <button><a href="step1.html">Next Step</a></button>
         </div>
       </div>
     </div>
+  </body>
 
-    <!-- Select your plan
-  You have the option of monthly or yearly billing.
-
-  Arcade
-  $9/mo
-
-  Advanced
-  $12/mo
-
-  Pro
-  $15/mo
-
-  Monthly
-  Yearly
+  <!--   
 
   Go Back
   Next Step
@@ -146,12 +133,4 @@
   to email us at support@loremgaming.com.
 
   Step 5 end -->
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Erick Wachuma</a>.
-    </div>
-  </body>
 </html>

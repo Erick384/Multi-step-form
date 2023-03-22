@@ -28,6 +28,7 @@ body {
   padding: 3rem;
   display: flex;
   flex-direction: column;
+  border-radius: 0.7rem;
   gap: 2rem;
   height: 100%;
   /* width: 100%; */
@@ -37,7 +38,8 @@ body {
 }
 .left1 {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
+  align-items: center;
 }
 .circle {
   border-radius: 50%;
@@ -45,8 +47,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
-  width: 50px;
+  height: 35px;
+  width: 35px;
   cursor: pointer;
 }
 .circle h3 {
@@ -60,6 +62,10 @@ body {
   /* font-size: 20px; */
   color: hsl(231, 11%, 63%);
 }
+.inputs{
+  display: flex;
+  flex-direction: column;
+}
 .inputs input{
     width: 25rem;
     height: 2.7rem;
@@ -72,6 +78,9 @@ body {
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
+}
+.header p{
+   color: hsl(231, 11%, 63%);
 }
 .form {
   display: flex;

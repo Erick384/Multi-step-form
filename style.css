@@ -1,15 +1,82 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 5rem;
+  background-color: hsl(206, 94%, 87%);
 }
-.container{
-    display: flex;
+.container {
+  display: flex;
+  height: 70vh;
+  gap: 4rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 1rem;
+  border-radius: 0.7rem;
+  height: 77vh;
+  background-color: hsl(0, 0%, 100%);
+}
+.left {
+  background-image: url(./assets/images/bg-sidebar-desktop.svg);
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 72.5vh;
+}
+.left1 {
+  display: flex;
+  gap: 1.5rem;
+}
+.circle {
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.circle h3 {
+  color: hsl(0, 0%, 100%);
+}
+.content p {
+  color: hsl(217, 100%, 97%);
+}
+.content span a {
+  text-decoration: none;
+  /* font-size: 20px; */
+  color: hsl(231, 11%, 63%);
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.button {
+  display: flex;
+  justify-content: right;
+}
+.button button {
+  background-color: hsl(213, 96%, 18%);
+  border-radius: 5px;
+  padding: 10px;
+}
+.button button a {
+  text-decoration: none;
+  padding: 1rem;
+  color: hsl(0, 0%, 100%);
 }

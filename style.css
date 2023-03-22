@@ -33,6 +33,7 @@ body {
   /* width: 100%; */
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .left1 {
   display: flex;
@@ -80,6 +81,8 @@ body {
 .button {
   display: flex;
   align-self: flex-end;
+  margin-top: 4rem;
+  
 }
 .button button {
   background-color: hsl(213, 96%, 18%);

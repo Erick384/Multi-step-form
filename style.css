@@ -23,7 +23,7 @@ body {
   width: 60vw;
 }
 .left {
-  background-image: url(../assets/images/bg-sidebar-desktop.svg);
+  background-image: url(./assets/images/bg-sidebar-desktop.svg);
   padding: 3rem;
   display: flex;
   flex-direction: column;

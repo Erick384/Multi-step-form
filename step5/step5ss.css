@@ -30,7 +30,7 @@
     border-radius: 0.7rem;
     gap: 2rem;
     height: 100%;
-    /* width: 100%; */
+    width: 26.5vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -64,8 +64,12 @@
   .right {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem 6rem 1.5rem 0;
+    justify-content: center;
   }
-  
+  .p{
+    color: hsl(231, 11%, 63%);
+    text-align: center;
+  }
